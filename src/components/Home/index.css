@@ -1,0 +1,44 @@
+/* Write your CSS code here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home-container {
+  display: flex;
+  width: 75%;
+  margin-top: 100px;
+}
+
+.heading {
+  font-family: Roboto;
+  font-size: 50px;
+  color: #1e293b;
+}
+
+.description {
+  font-family: Roboto;
+  color: #64748b;
+  font-size: 18px;
+}
+
+.shop-button {
+  background-color: #0967d2;
+  color: #d7dfe9;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 15px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.home-image {
+  height: 400px;
+  width: 400px;
+  margin-left: 100px;
+}

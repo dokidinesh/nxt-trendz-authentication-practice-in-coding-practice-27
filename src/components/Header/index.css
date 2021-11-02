@@ -1,0 +1,39 @@
+/* Write your CSS code here */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  width: 75%;
+}
+
+.menu {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+
+.logo {
+  height: 30px;
+  width: 130px;
+}
+
+.menu-item {
+  color: #64748b;
+  font-family: roboto;
+  margin-right: 20px;
+  font-weight: 500;
+}
+
+.button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 10px;
+  font-family: roboto;
+}
